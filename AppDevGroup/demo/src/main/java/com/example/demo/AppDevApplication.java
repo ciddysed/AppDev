@@ -9,7 +9,10 @@ public class AppDevApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AppDevApplication.class, args);
 		//James Yulo
-		System.out.println("James Yulo");
+		for(int i = 0; i < 10; i++){
+			System.out.println("James Yulo");
+		}
+		
 	}
 
 }
